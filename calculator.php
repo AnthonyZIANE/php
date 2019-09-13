@@ -23,7 +23,7 @@ $operateurs = '*+-/';
     <title>Title</title>
 </head>
 <body>
-<form method="post" action="calcul.php">
+<form method="get" action="calcul.php">
     <input type="text" id="op1"><br/>
     <input type="text" id="op2"><br/>
     <input checked="checked" type="radio" name="op" value="*"/>*<br/>

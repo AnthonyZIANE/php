@@ -30,7 +30,7 @@ else
 echo '<br/><strong>opérateur ' . $op . ' non géré </strong>';
 }
 
-$action=$_POST['action'];
+$action=$_GET['action'];
 ?>
 <!DOCTYPE html>
 <br lang="en">
