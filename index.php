@@ -9,6 +9,15 @@ lang="fr"><head><title>' . PHP_EOL . $title . '</title></head><body>' . PHP_EOL
 <?php
 start_page('YASS');
 ?>
+<?php
+echo date('l F d, Y');
+?>
+<?php
+$jour = date('l F d, Y');
+?>
+<?php
+$jour = date('d/m/Y', strtotime('2020-04-01'));
+?>
 <!DOCTYPE html>
 <br lang="en">
 <head>
