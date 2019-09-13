@@ -19,9 +19,11 @@ $op = $_POST['op'];
 <?php
 if('*' == $op)
 {
+    $calc = op1 * op2;
 }
 elseif('+' == $op)
 {
+    $calc = op1 + op2;
 }
 else
 {
@@ -37,7 +39,7 @@ echo '<br/><strong>opérateur ' . $op . ' non géré </strong>';
 <body>
 
 <?php
-start_page('José');
+start_page('op1 * op2 =');
 end_page();
 ?>
 </body>
