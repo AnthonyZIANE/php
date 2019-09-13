@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<br lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -12,6 +12,7 @@ $var3 = 'Variable 3';
 ?>
 <?php echo "$var1 + $var2"; ?>
 <br><?php echo $var1 + $var2; ?></br>
+<br><?php echo $var1 + $var3; ?></br>
 
 <?php
 echo '<br><strong> Voici mon premier programme PHP </strong><br/>' . "\n";
