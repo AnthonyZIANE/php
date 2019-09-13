@@ -12,6 +12,10 @@ function end_page()
 
 ?>
 
+<?php
+$operateurs = '*+-/';
+?>
+
 <!DOCTYPE html>
 <br lang="en">
 <head>
@@ -19,18 +23,17 @@ function end_page()
     <title>Title</title>
 </head>
 <body>
-<form method="post" action="calcul.php">
-    <input type="text" id="op1"><br/>
-    <input type="text" id="op2"><br/>
-    <input checked="checked" type="radio" name="op" value="*"/>*<br/>
-    <input type="radio" name="op" value="+"/>+<br/>
-    <input type="radio" name="op" value="-"/>-<br/>
-    <input type="radio" name="op" value="/"/>/<br/>
-    <input type="submit" value="Envoyer le formulaire"><br/>
-    <input type="reset" value="supprimer le formulaire"><br/>
-
-
-</form>
+<?php
+for($cpt = 0 ; $cpt <= 3 ; ++$cpt)
+{
+    echo '<input ';
+    if($cpt == 0)
+    {
+        echo 'checked="checked" ';
+    }
+    echo 'type="radio" name="op" value="' . $operateurs[$cpt] . '"/>' . $operateurs[$cpt] . ' <br/>' . "\n";
+}
+?>
 <?php
 start_page('José');
 end_page();
