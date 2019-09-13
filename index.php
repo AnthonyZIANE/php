@@ -10,11 +10,11 @@ lang="fr"><head><title>' . PHP_EOL . $title . '</title></head><body>' . PHP_EOL
 start_page('YASS');
 ?>
 <?php
-echo date('l F d, Y');
+echo date('d/m/Y');
 ?>
 
 <?php
-$jour = date('l F d, Y');
+$jour = date('d/m/Y');
 ?>
 
 <!DOCTYPE html>
