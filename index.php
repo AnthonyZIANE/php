@@ -13,7 +13,7 @@ $var3 = 'Variable 3';
 <?php echo "$var1 + $var2"; ?>
 
 <?php
-echo '<strong> Voici mon premier programme PHP </strong><br/>' . "\n";
+echo '<br><strong> Voici mon premier programme PHP </strong><br/>' . "\n";
 echo 'C\'est pas mal non ? <br/>';
 ?>
 </body>
