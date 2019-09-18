@@ -1,9 +1,9 @@
 <?php
 
-$dbLink = mysqli_connect( mysql-anthonyziane.alwaysdata.net, anthonyziane, Marseille1313 )
+$dbLink = mysqli_connect( mysql-anthonyziane.alwaysdata.net, 189623, -Maseille1313- )
 or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
 
-mysqli_select_db($dbLink , user1)
+mysqli_select_db($dbLink , user)
 or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink)
 );
 
