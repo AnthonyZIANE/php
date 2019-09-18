@@ -1,5 +1,13 @@
 <?php
 
+$dbLink = mysqli_connect( mysql-anthonyziane.alwaysdata.net, 189623, Marseille1313 )
+or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
+
+mysqli_select_db($dbLink , user1)
+or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink)
+);
+
+
  
 $ide = $_POST['Identifiant'];
 $homme = $_POST['H'];
