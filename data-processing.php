@@ -18,8 +18,8 @@ if($action == 'mailer')
 	$message = 'Voici vos identifiants d\'inscription:' . $ide .PHP_EOL;
     $message .= 'Email:' . $EM . PHP_EOL;
     $message .= 'Mot de passe:' . PHP_EOL . $mdp;
-    mail('crazyfonz72@gmail.com' ,'message PTTP',$message);
-
+    mail('crazyfonz72@gmail.com' ,'message TP',$message);
+    header('Location: taff.php');
 }
 
 else
