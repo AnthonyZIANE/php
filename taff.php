@@ -1,5 +1,5 @@
-<? php
+<?php
 
-echo 'bien joué l'ami';
+echo 'bien joué';
 
 ?>
