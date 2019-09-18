@@ -1,6 +1,6 @@
 <?php
 
-$dbLink = mysqli_connect( mysql-anthonyziane.alwaysdata.net, 189623, -Maseille1313- )
+$dbLink = mysqli_connect( mysql-anthonyziane.alwaysdata.net, 189623, ""-Maseille1313-"" )
 or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
 
 mysqli_select_db($dbLink , user)
@@ -38,4 +38,5 @@ echo '<br/><strong>Bouton non géré !</strong><br/>';
 
 }
 
+ echo "voiture-";
 ?>
