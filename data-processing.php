@@ -1,6 +1,6 @@
 <?php
 
-$dbLink = mysqli_connect( mysql-anthonyziane.alwaysdata.net, 189623, Marseille1313)
+$dbLink = mysqli_connect( mysql-anthonyziane.alwaysdata.net, 189623, bovetjosé)
 or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
 
 mysqli_select_db($dbLink , user)
