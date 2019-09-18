@@ -1,4 +1,4 @@
-<? php
+<?php
 
  
 $ide = $_POST['Identifiant'];

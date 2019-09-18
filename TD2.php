@@ -1,9 +1,9 @@
 <?php
 
 
-//$bdd = new PDO('mysql:host=localhost;dbname=user1;charset=utf8', 'root', '');
+$bdd = new PDO('mysql:host=mysql-anthonyziane.alwaysdata.net;dbname=anthonyziane_tp2;charset=utf8', '189623', '');
 
-//$xaxa=$bdd->exec('INSERT INTO `user1` (`id`, `mail`, `mdp`, `date`) VALUES ('9', 'toutafait', '124', '2000-08-18')');
+$xaxa=$bdd->exec('INSERT INTO `user1` (`id`, `username`, `datasse`, `pays`, \'sex\', \'mdp\', \'tel\', \'mail\' ) VALUES ( \'9\', \'joe\', \'2000-0_-14\', \'France\', \'H\', \'voiture\', \'nickel\', \'anthony@gmail.com\' )');
 
 
 ?>
