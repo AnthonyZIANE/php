@@ -1,7 +1,7 @@
 <?php
 
-$log = $_POST['Login'];
-$mdp = $_POST['Mot De Passe'];
+$log = $_POST['login'];
+$mdp = $_POST['mdp'];
 
 
 
