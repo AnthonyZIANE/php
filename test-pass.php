@@ -16,7 +16,7 @@ $mdp = $_POST['mdp'];
 
 
 
-$query = 'SELECT * FROM user WHERE username = $log and mdp = $mdp';
+$query = 'SELECT * FROM user WHERE username = \'$log\' and mdp = \'$mdp\'';
 
 if (!($dbResult = mysqli_query($dbLink, $query)))
 {
