@@ -10,6 +10,16 @@ or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink)
 
 $query = ('INSERT INTO user(id, username, datasse, pays, sex, mdp, tel, mail) VALUES(1, \'Joe\', 2000-14-08, \'France\', \'Homme\', \'voiture\', \'061571045\', \'anthony@gmail.com\' )');
 
+if(!($dbResult = mysqli_query($dbLink, $query)))
+{
+    echo 'Erreur dans requête<br />';
+// Affiche le type d'erreur.
+    echo 'Erreur : ' . mysqli_error($dbLink) . '<br/>';
+// Affiche la requête envoyée.
+    echo 'Requête : ' . $query . '<br/>';
+    exit();
+}
+
 
 
  
