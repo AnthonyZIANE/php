@@ -11,7 +11,7 @@ or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink)
 
 
 
-$log = $_POST['login'];
+$log = $_POST['username'];
 $mdp = $_POST['mdp'];
 
 
