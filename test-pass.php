@@ -8,14 +8,14 @@ $mdp = $_POST['Mot De Passe'];
 
 if($log == 'login' && $mdp =='mdp')
 {
-    header('Location: accueil.php');
+    header('Location: oui.php');
 }
 
 else
 
 {
 
-    header('Location: fail.php');;
+    header('Location: fail.php');
 
 }
 
