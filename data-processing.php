@@ -7,8 +7,8 @@ mysqli_select_db($dbLink , 'anthonyziane_tp2')
 or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink)
 );
 
-//exec('INSERT INTO  user (\' \'id\', \'username\', \'datasse\', \'pays\', \'sex\', \'mdp\', \'tel\', \'mail\' ) VALUES ( \'9\', \'joe\', \'2000-0_-14\', \'France\', \'H\', \'voiture\', \'nickel\', \'anthony@gmail.com\' )');
-$query = ('INSERT INTO jeux_video(nom, possesseur, console, prix, nbre_joueurs_max, commentaires) VALUES(1, \'Joe\', 2000-14-08, \'France\', \'Homme\', \'voiture\', \'061571045\', \'anthony@gmail.com\' )');
+
+$query = ('INSERT INTO user(id, username, datasse, pays, sex, mdp, tel, mail) VALUES(1, \'Joe\', 2000-14-08, \'France\', \'Homme\', \'voiture\', \'061571045\', \'anthony@gmail.com\' )');
 
 
 
