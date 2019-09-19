@@ -8,7 +8,7 @@ or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink)
 );
 
 
-$query = ('INSERT INTO user(id, username, datasse, pays, sex, mdp, tel, mail) VALUES(1, \'Joe\', 2000-14-08, \'France\', \'Homme\', \'voiture\', \'061571045\', \'anthony@gmail.com\' )');
+$query = ('INSERT INTO user(id, username, datasse, pays, sex, mdp, tel, mail) VALUES(1, \'Joe\', $today, \'France\', \'Homme\', \'voiture\', \'061571045\', \'anthony@gmail.com\' )');
 
 if(!($dbResult = mysqli_query($dbLink, $query)))
 {
