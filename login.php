@@ -21,8 +21,8 @@
     <form method="post" action="test-pass.php" enctype="multipart/form-data">
 
 
-             <input type="text" name="login" value="login">Login</input>
-            <input type="password" name="mdp" value="mdp">Mot De Passe</input>
+             <input type="text" name="login" value="joe">Login</input>
+            <input type="password" name="mdp" value="123">Mot De Passe</input>
             <input type="submit" name="bouton">Bouton</input>
 
 
