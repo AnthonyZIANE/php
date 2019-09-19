@@ -21,8 +21,8 @@ echo $_GET['step'];
     <form method="post" action="test-pass.php" enctype="multipart/form-data">
 
 
-             <input type="text" name="username" value="joe">Login</input>
-            <input type="password" name="mdp" value="yes">Mot De Passe</input>
+             <input type="text" name="username" value="Joe">Login</input>
+            <input type="password" name="mdp" value="voiture">Mot De Passe</input>
             <input type="submit" name="bouton">Bouton</input>
 
 
