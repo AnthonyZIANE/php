@@ -9,7 +9,7 @@ $mdp = $_POST['mdp'];
 
 
 
-if($log == 'joe' && $mdp =='yes')
+if($log == 'Joe' && $mdp =='voiture')
 {
     $_SESSION['login'] = 'ok';
     header('Location: oui.php');
