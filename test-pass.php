@@ -6,7 +6,7 @@ $mdp = $_POST['mdp'];
 
 
 
-if($log == 'login' && $mdp =='mdp')
+if($log == 'joe' && $mdp =='yes')
 {
     header('Location: oui.php');
 }

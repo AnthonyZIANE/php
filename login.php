@@ -22,7 +22,7 @@
 
 
              <input type="text" name="login" value="joe">Login</input>
-            <input type="password" name="mdp" value="123">Mot De Passe</input>
+            <input type="password" name="mdp" value="yes">Mot De Passe</input>
             <input type="submit" name="bouton">Bouton</input>
 
 
