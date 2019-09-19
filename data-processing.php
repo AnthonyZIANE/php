@@ -7,9 +7,11 @@ mysqli_select_db($dbLink , 'anthonyziane_tp2')
 or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink)
 );
 
+exec('INSERT INTO user1 (\'id\', \'username\', \'datasse\', \'pays\', \'sex\', \'mdp\', \'tel\', \'mail\' ) VALUES ( \'9\', \'joe\', \'2000-0_-14\', \'France\', \'H\', \'voiture\', \'nickel\', \'anthony@gmail.com\' )');
+
 
  
-$ide = $_POST['Identifiant'];
+/*$ide = $_POST['Identifiant'];
 $homme = $_POST['H'];
 $femme = $_POST['F'];
 $EM = $_POST['E-mail'];
@@ -22,7 +24,7 @@ $action = $_POST['action'];
 
 if($action == 'mailer')
 {
-	
+
 	$message = 'Voici vos identifiants d\'inscription:' . $ide .PHP_EOL;
     $message .= 'Email:' . $EM . PHP_EOL;
     $message .= 'Mot de passe:' . PHP_EOL . $mdp;
@@ -36,7 +38,7 @@ else
 
 echo '<br/><strong>Bouton non géré !</strong><br/>';
 
-}
+}*/
 
- echo "voiture-";
+
 ?>
