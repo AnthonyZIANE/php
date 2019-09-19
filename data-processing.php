@@ -19,6 +19,8 @@ if(!($dbResult = mysqli_query($dbLink, $query)))
     echo 'Erreur : ' . mysqli_error($dbLink) . '<br/>';
 // Affiche la requête envoyée.
     echo 'Requête : ' . $query . '<br/>';
+    echo 'Bonjour, Joé
+Votre inscription a bien été enregistrée, merci.' . '<br />';
     exit();
 }
 
