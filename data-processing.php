@@ -111,7 +111,6 @@ while ($line = fgets($file , 255))
 
 fclose($file);
 
-fopen($file, 'w+');
-ftruncate($file, 0);
+
 
 ?>
