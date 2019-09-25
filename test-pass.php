@@ -21,7 +21,7 @@ if($log == 'Joe' && $mdp =='voiture')
 else
 
 {
-    die ('Erreur');
+    die ('Erreur \!');
     header('Location: login.php?step=ERROR');
 
 }
