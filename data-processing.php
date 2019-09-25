@@ -20,7 +20,7 @@ if(!($dbResult = mysqli_query($dbLink, $query)))
 // Affiche la requête envoyée.
     echo 'Requête : ' . $query . '<br/>';
     echo 'Bonjour, Joé
-Votre inscription a bien été enregistrée, merci.' . '<br />';
+Votre inscription a bien été enregistrée merci.' . '<br />';
     exit();
 }
 
