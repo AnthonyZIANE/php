@@ -87,6 +87,15 @@ if(!($file = fopen($file, 'a+')))
 fputs($file,'id :' .$ide . ', email :' . $EM . PHP_EOL);
 
 
+echo 'Liste des utilisateurs : ' . PHP_EOL;
+$cpt = 1;
+while ($line = fgets($file , 255))
+{
+    echo 'Utilisateur n' . $cpt . ' : ' . $line . PHP_EOL;
+    ++ $cpt;
+}
+
+
 fclose($file);
 
 
