@@ -1,7 +1,7 @@
 <?php
 
 
-echo "bienvenue le J" . '<br />';
+echo 'Bienvenue' . '<br />';
 
 
 
