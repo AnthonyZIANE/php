@@ -16,7 +16,7 @@
 
 if ($_GET['step'] == 'ERROR')
 {
-    echo 'YA HAJA LE SANG' . PHP_EOL;
+    echo 'MINCE' . PHP_EOL;
 
 }
 
