@@ -24,6 +24,7 @@ $bbb = 'login.php';
 <ul id="menu">
 
     <li><a href="<?php echo $aaa;?>"><?php echo $aa;?></a></li>
+    <li><a href="<?php echo $bbb;?>"><?php echo $bb;?></a></li>
 
 
 </ul>
