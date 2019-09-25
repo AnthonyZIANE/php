@@ -1,7 +1,7 @@
 <?php
 
 
-echo "raté le sang" . '<br />';
+echo "Raté" . '<br />';
 
 
 
