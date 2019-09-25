@@ -31,7 +31,7 @@ if (!($dbResult = mysqli_query($dbLink, $query)))
 }
 
 
-else if (isset($log, $mdp) && !empty(trim($log, $mdp)))*
+else if (isset($log, $mdp) && !empty(trim($log, $mdp)))
 {
     echo 'NUL' . PHP_EOL;
 }
