@@ -35,7 +35,7 @@
              	 <option value="Allemagne">Allemagne</option>
              	 <option value="Lituanie">Lituanie</option>
              </select>
-            <input type="checkbox" name="Conditions générales">Conditions générales</input>
+            <input type="checkbox" name="Conditions générales">Conditions générales </input>
             <input type="submit" name="action" value="mailer">
 
 
