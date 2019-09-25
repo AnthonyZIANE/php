@@ -58,7 +58,8 @@ echo '<br/><strong>Bouton non géré !</strong><br/>';
 
 $action1 = $_POST['action1'];
 $action = $_POST['action'];
-
+$EM = $_POST['E-mail'];
+$ide = $_POST['Identifiant'];
 
 if($action1 == 'mailer')
 {
@@ -67,7 +68,7 @@ if($action1 == 'mailer')
 
 elseif ($action == 'rec')
 {
-    echo 'Beaucoup mieux \!' . PHP_EOL;
+    echo 'Beaucoup mieux !' . PHP_EOL;
 }
 
 else
@@ -76,6 +77,17 @@ else
 }
 
 
+$file='data.txt';
+if(!($file = fopen($file, 'a+')))
+{
+    echo 'Erreur';
+    exit();
+}
+
+fputs($file,'id :' .$ide . ', email :' . $EM . PHP_EOL);
+
+
+fclose($file);
 
 
 ?>
