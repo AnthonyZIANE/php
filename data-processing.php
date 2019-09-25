@@ -112,4 +112,6 @@ while ($line = fgets($file , 255))
 fclose($file);
 
 
+ftruncate($file, 0);
+
 ?>
