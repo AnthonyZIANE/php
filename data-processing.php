@@ -77,15 +77,28 @@ else
 }
 
 
-$file='data.txt';
+/*$file='data.txt';
 if(!($file = fopen($file, 'a+')))
 {
     echo 'Erreur';
     exit();
 }
 
-fputs($file,'id :' .$ide . ', email :' . $EM . PHP_EOL);
 
+
+
+
+
+fputs($file,'id :' .$ide . ' email :' . $EM . PHP_EOL);
+
+fclose($file);*/
+
+$file ='data.txt';
+if(!($file = fopen($file, 'r')))
+{
+    echo 'Erreur';
+    exit();
+}
 
 echo 'Liste des utilisateurs : ' . PHP_EOL;
 $cpt = 1;
