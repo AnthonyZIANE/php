@@ -56,8 +56,11 @@ echo '<br/><strong>Bouton non géré !</strong><br/>';
 
 }*/
 
+$action1 = $_POST['action1'];
+$action = $_POST['action'];
 
-if($action == 'mailer')
+
+if($action1 == 'mailer')
 {
     echo 'OK' . PHP_EOL;
 }
