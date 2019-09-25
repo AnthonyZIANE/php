@@ -1,10 +1,4 @@
-<?php
 
-echo $_GET['step'];
-
-
-
-?>
 
 
 
@@ -17,8 +11,20 @@ echo $_GET['step'];
 
 </head>
 <body>
+
+<?php
+
+if ($_GET['step'] == 'ERROR')
+{
+    echo 'YA HAJA LE SANG' . PHP_EOL;
+
+}
+
+
+
+?>
 <div class="form">
-    <form method="post" action="test-pass.php" enctype="multipart/form-data">
+    <form method="get" action="test-pass.php" enctype="multipart/form-data">
 
 
              <input type="text" name="login" value="Joe">Login</input>
