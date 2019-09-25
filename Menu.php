@@ -3,6 +3,10 @@
 $aa = 'Page 1';
 $aaa= 'calcul.php';
 
+$bb = 'Page 2';
+$bbb = 'login.php';
+
+
 ?>
 
 
