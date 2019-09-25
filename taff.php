@@ -1,5 +1,5 @@
 <?php
 
-echo "Bien joué le sang";
+echo "Bien joué";
 
 ?>
