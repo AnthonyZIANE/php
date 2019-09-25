@@ -1,6 +1,6 @@
 <?php
 
-$dbLink = mysqli_connect( 'mysql-anthonyziane.alwaysdata.net','189623', 'Voiture123')
+/*$dbLink = mysqli_connect( 'mysql-anthonyziane.alwaysdata.net','189623', 'Voiture123')
 or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
 
 mysqli_select_db($dbLink , 'anthonyziane_tp2')
@@ -27,7 +27,7 @@ Votre inscription a bien été enregistrée merci.' . '<br />';
 
 
  
-/*$ide = $_POST['Identifiant'];
+$ide = $_POST['Identifiant'];
 $homme = $_POST['H'];
 $femme = $_POST['F'];
 $EM = $_POST['E-mail'];
@@ -55,6 +55,24 @@ else
 echo '<br/><strong>Bouton non géré !</strong><br/>';
 
 }*/
+
+
+if($action == 'mailer')
+{
+    echo 'OK' . PHP_EOL;
+}
+
+elseif ($action == 'rec')
+{
+    echo 'Beaucoup mieux \!' . PHP_EOL;
+}
+
+else
+{
+    echo PHP_EOL . 'Bouton non géré \!' . PHP_EOL;
+}
+
+
 
 
 ?>

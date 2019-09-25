@@ -37,6 +37,7 @@
              </select>
             <input type="checkbox" name="Conditions générales">Conditions générales </input>
             <input type="submit" name="action" value="mailer">
+            <input type="submit" name="action" value="rec">Bouton2</input>
 
 
         </p>
