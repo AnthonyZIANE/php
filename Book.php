@@ -76,8 +76,12 @@ class Book
         $this->title = $title;
     }
 
-    public function __Show()
+    public function Show()
    {
-       echo  'getTitle()' . PHP_EOL;
+       for($i =1;$i< $this->array;$i++)
+       {
+           getTitle() . PHP_EOL;
+       }
+
    }
 }
