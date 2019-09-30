@@ -11,8 +11,9 @@ or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink)
 
 session_start();
 
-$log = $_POST['login'];
+$log = $_POST['username'];
 $mdp = $_POST['mdp'];
+$nbc = $_POST['NbConnect'];
 
 
 $query = 'SELECT * FROM user WHERE username =\'' . $log . '\' AND mdp =\'' . $mdp .'\' ';
@@ -36,8 +37,14 @@ else if (isset($log, $mdp) && !empty(trim($log, $mdp)))
     echo 'NUL' . PHP_EOL;
 }
 
+$query2 ='UPDATE user SET NbConnect =  $nbc=$nbc+1  WHERE username =   $log ' ;
 
 
+if($log == 'Joe')
+{
+    echo'Requête : ' . $query . '<br/>';
+    exit();
+}
 
 /*if($log == 'Joe' && $mdp =='voiture')
 {
